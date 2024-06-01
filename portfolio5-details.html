@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Project Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon_io/favicon.ico " type="">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="https://en.pimg.jp/108/274/156/1/108274156.jpg" alt="">
+                </div>
+
+               <!-- <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+                </div>-->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>                <li><strong>Category</strong>: Python Scritps </li>
+               
+               
+                <li><strong>Project URL</strong>: <a href="https://github.com/banzebilly/both-investment-bond_repayment-calculator" target="_blank" class="btn btn-outline-primary">View it on Github</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+                <h2>Django Project: Financial Calculators for Investments and Home Loans</h2>
+                <p>
+                    This project is a Python-based application designed for a small financial company, providing users with access to two different financial calculators: an investment calculator and a home loan repayment calculator. The application helps users calculate the amount of interest earned on investments and the monthly repayments for home loans.
+                </p>
+                <ul>
+                    <li><strong>Investment Calculator</strong>: Allows users to calculate the future value of their investments based on simple or compound interest.
+                        <ul>
+                            <li>Prompts the user to input the amount of money to be deposited, the interest rate, and the number of years for the investment.</li>
+                            <li>Asks whether the interest is "simple" or "compound" and calculates the total amount accordingly using the formulas:
+                                <ul>
+                                    <li>Simple Interest: \( A = P(1 + r \times t) \)</li>
+                                    <li>Compound Interest: \( A = P \times (1 + r)^t \)</li>
+                                </ul>
+                            </li>
+                            <li>Outputs the total amount after the given period at the specified interest rate.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Home Loan Repayment Calculator</strong>: Enables users to calculate the monthly repayment amount for a home loan.
+                        <ul>
+                            <li>Prompts the user to input the present value of the house, the annual interest rate, and the number of months for repayment.</li>
+                            <li>Uses the bond repayment formula to calculate the monthly repayment:
+                                <ul>
+                                    <li>\( repayment = \frac{i \times P}{1 - (1 + i)^{-n}} \)</li>
+                                </ul>
+                            </li>
+                            <li>Outputs the monthly repayment amount based on the user's inputs.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Interactive Menu</strong>: The program starts by presenting a menu to the user, allowing them to choose between the investment and bond calculators:
+                        <ul>
+                            <li>1. Enter 'investment' to calculate the amount of interest earned on an investment.</li>
+                            <li>2. Enter 'bond' to calculate the monthly repayments on a home loan.</li>
+                            <li>The user's input is case-insensitive and is validated to ensure correctness.</li>
+                            <li>If an invalid option is entered, an appropriate error message is displayed.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Python Implementation</strong>: The application is implemented in a Python script called <em>finance_calculators.py</em> with the necessary calculations and user interactions.
+                        <ul>
+                            <li>Imports the <code>math</code> module for mathematical operations.</li>
+                            <li>Includes clear and concise code to perform the required calculations based on user inputs.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>
+                    This project effectively demonstrates the use of Python for financial calculations, providing a user-friendly interface for managing investment and loan repayment calculations. The implementation showcases practical applications of mathematical formulas, user input handling, and interactive menu design.
+                </p>
+            </div>
+            
+            
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
