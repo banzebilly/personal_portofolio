@@ -164,7 +164,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #070707;
+  background:  #000000f4;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -222,6 +222,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  background-color: #000004;
 }
 
 .navbar ul {
@@ -469,7 +470,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/marry1.jpg") top right;
+  background: url("../img/billy1.jpg") top right;
   background-size: cover;
 }
 
@@ -551,7 +552,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .section-bg {
