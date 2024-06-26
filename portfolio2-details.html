@@ -77,18 +77,23 @@
               <p>
                 This project is an e-commerce web application built using Django, a high-level Python web framework. It provides essential functionalities such as user authentication, product management, shopping cart management, order processing, and more.
               </p>
-                   <ul>
-                  <li><strong>User Management</strong>: Users can securely register and log in. Email verification is required to activate accounts, ensuring legitimacy and security.</li>
-                  <li><strong>Enhanced Account Security</strong>: The admin panel is protected by changing the default login path. A honeypot mechanism logs fake login attempts, improving monitoring and protection against unauthorized access.</li>
-                  <li><strong>Product Variations</strong>: Products support variations such as color and size, with these fields being mandatory, offering customers a diverse range of choices tailored to their needs.</li>
-                  <li><strong>Client Reviews and Ratings</strong>: Users can post reviews and rate products. The system calculates average ratings and counts the number of reviews for each product, providing valuable feedback and insights.</li>
-                  <li><strong>Shopping Cart Functionality</strong>: The platform supports a dynamic shopping cart where both logged-in and guest users can add, delete, and adjust product quantities. This flexibility enhances the user shopping experience.</li>
-                  <li><strong>Secure Checkout Process</strong>: Checkout is restricted to logged-in users, ensuring that transactions are secure and user information is protected. This includes comprehensive management of customer data and order details.</li>
-                  <li><strong>Payment Integration</strong>: Integrated with PayPal, the system facilitates seamless and secure payment processing, accommodating various payment preferences and enhancing the checkout experience.</li>
-                  <li><strong>Static and Media Files Management</strong>: Static files (e.g., CSS, JavaScript) and media files (e.g., product images) are efficiently managed and securely served. Sensitive information within these files is protected, with planned deployment to AWS S3 for scalable storage.</li>
-                  <li><strong>PostgreSQL Database Integration</strong>: A robust PostgreSQL database system is used to securely store user information, product data, and order details, supporting complex queries and ensuring data integrity.</li>
-                  <li><strong>Future Deployment Plans</strong>: Deployment to AWS S3 for media files is on the horizon, offering scalable and reliable storage solutions, ensuring the platform can grow and meet increasing demands.</li>
-              </ul>
+                  <ul>
+                      <li><strong>User Management</strong>: Users can securely register and log in. Email verification is required to activate accounts, ensuring legitimacy and security.</li>
+                      <li><strong>Password Reset</strong>: Users have the ability to reset their passwords securely through an email-based recovery process, maintaining account security and accessibility.</li>
+                      <li><strong>User Dashboard and Profile</strong>: Authenticated users can access their personal dashboard to manage their account details and view their order history. Each user has a profile model to store and update personal information.</li>
+                      <li><strong>Order Tracking</strong>: Users can track the status of their orders through their dashboard, providing visibility and updates on the delivery process.</li>
+                      <li><strong>Enhanced Account Security</strong>: The admin panel is protected by changing the default login path. A honeypot mechanism logs fake login attempts, improving monitoring and protection against unauthorized access.</li>
+                      <li><strong>Product Variations</strong>: Products support variations such as color and size, with these fields being mandatory, offering customers a diverse range of choices tailored to their needs.</li>
+                      <li><strong>Client Reviews and Ratings</strong>: Users can post reviews and rate products. The system calculates average ratings and counts the number of reviews for each product, providing valuable feedback and insights.</li>
+                      <li><strong>Shopping Cart Functionality</strong>: The platform supports a dynamic shopping cart where both logged-in and guest users can add, delete, and adjust product quantities. This flexibility enhances the user shopping experience.</li>
+                      <li><strong>Secure Checkout Process</strong>: Checkout is restricted to logged-in users, ensuring that transactions are secure and user information is protected. This includes comprehensive management of customer data and order details.</li>
+                      <li><strong>Payment Integration</strong>: Integrated with PayPal, the system facilitates seamless and secure payment processing, accommodating various payment preferences and enhancing the checkout experience. After successful payment, users are redirected to a confirmation page for their order.</li>
+                      <li><strong>Static and Media Files Management</strong>: Static files (e.g., CSS, JavaScript) and media files (e.g., product images) are efficiently managed and securely served. Sensitive information within these files is protected, with planned deployment to AWS S3 for scalable storage.</li>
+                      <li><strong>PostgreSQL Database Integration</strong>: A robust PostgreSQL database system is used to securely store user information, product data, and order details, supporting complex queries and ensuring data integrity.</li>
+                      <li><strong>Future Deployment Plans</strong>: The platform is set to be deployed on AWS Elastic Beanstalk, providing scalable and managed deployment services, along with AWS S3 for media file storage. This will ensure the application can handle growing demands efficiently and reliably.</li>
+                </ul>
+
+            
          
               <p>
                 While payment integration and deployment to AWS are not yet included in this iteration of the project, I have laid a solid foundation for future enhancements and improvements. Overall, I have successfully developed a feature-rich e-commerce web application that prioritizes user experience, security, and functionality.
